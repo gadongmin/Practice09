@@ -1,23 +1,21 @@
 package com.javaex.ex04;
 
-public class Rectangle extends Shape implements Resizeable {
-	// 필드
+public class Rectangle_1 extends Shape_1 implements Resizeable_1 {
+
 	private double width;
 	private double height;
 
-	// 생성자
-	public Rectangle(double width, double height) {
+	public Rectangle_1(double width, double height) {
 		this.width = width;
 		this.height = height;
 	}
 
-	// 메소드
 	public double getArea() {
-		return width * height;
+		return this.width * this.height;
 	}
 
 	public double getPerimeter() {
-		return (width + height) * 2;
+		return (this.width + this.height) * 2;
 	}
 
 	public void resize(double s) {
