@@ -32,8 +32,7 @@ public class GoodsApp {
 		System.out.println("[입력완료]");
 		System.out.println("==========================================");
 		for (int i = 0; i < gArr.size(); i++) {
-			Goods g = gArr.get(i);
-			g.showInfo();
+			gArr.get(i).showInfo();;
 		}
 		sc.close();
 
